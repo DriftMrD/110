@@ -7,10 +7,13 @@ body{
 }
 #background{
 	position: absolute;
-	width: 100%;
 	z-index:-1;
 	left:0px;
 	top: 0px;
+}
+#background img{
+	width: 100%;
+	height:100%;
 }
 /*head*/
 #head{
@@ -94,6 +97,9 @@ body{
 	font-weight:bold;
 	font-family: Georgia, "Times New Roman", 
         Times, serif;
+}
+#info img{
+	width: 100%;
 }
 /*htmlbody body hobby*/
 #hobby li{
