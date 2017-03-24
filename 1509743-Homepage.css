@@ -1,0 +1,173 @@
+/*htmlbody*/
+body{
+	background-attachment: fixed;
+	background-color: #7FB8CB;
+	margin: 0px;
+	font-family: didot,times,helvetica,arial;
+}
+#background{
+	position: absolute;
+	width: 100%;
+	z-index:-1;
+	left:0px;
+	top: 0px;
+}
+/*head*/
+#head{
+	text-align: center;
+	margin-top:7%;
+}
+#head h1{
+    font-size: 3.3vw;
+}
+#head a {
+	font-size: 1.6vw;
+	color:#e17900;
+	text-decoration:none; 
+}
+#head a:hover { 
+	color:#7FB8CB;
+} 
+#head span {
+	color:#e17900;
+}
+/*nevigation*/
+#nevigation{
+	position: center;
+	width: 8%;
+	padding:0% 1%;
+	float:left;
+    position: fixed;
+    z-index: 100;
+}
+#nevigation a{
+	color:rgba(49, 112, 143, 1);
+	text-decoration:none;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.5vw;
+}
+#nevigation h3{
+	color:rgba(49, 112, 143, 1);
+	font-style: italic;
+	font-size: 1.5vw;
+}
+#nevigation a:hover{
+	color:#D3867C;
+}
+#basiclinks{
+	padding: 20% 0%;
+}
+/*htmlbody body*/
+#article{
+	position: center;
+	border-radius: 20px;
+	background:#E5F6FD;
+	background-size: 100% auto;
+	padding:1% 3%;
+	margin:3% 15%; 
+}
+#article p{
+	font-size: 1.4vw;
+}
+#article h4{
+	color:rgba(49, 112, 143, 1);
+	font-style:italic;
+	font-family: Georgia, "Times New Roman", 
+        Times, serif;
+    font-size: 1.5vw;
+}
+/*htmlbody body info*/
+#info table{
+	width:100%;
+	border:0;
+	background:#E5F6FD;
+	border-radius:20px;
+}
+#info table td{
+	background:#92C6D3;
+	border-radius: 20px;
+	padding:0px 15px;
+	font-size: 1.4vw;
+}
+#info table td:nth-child(odd){
+	font-weight:bold;
+	font-family: Georgia, "Times New Roman", 
+        Times, serif;
+}
+/*htmlbody body hobby*/
+#hobby li{
+	font-size: 1.4vw;
+}
+#img{
+	text-align: center;
+}
+#img img{
+	width: 80%;
+	margin: 20px;
+	border-radius: 20px;
+}
+/*htmlbody body favorite*/
+#favorite a{
+	color:#e17900;
+	text-decoration:none;
+}
+#favorite a:hover{
+	color:rgba(49, 112, 143, 1);
+}
+#favorite table{
+	width:99%;
+	border:1;
+	background:#E5F6FD;
+}
+#favorite table thead{
+	font-family: Georgia, "Times New Roman", 
+        Times, serif;
+    font-size: 1.4vw;
+}
+#favorite table td{
+	background:#92C6D3;
+	padding:0px 15px;
+	font-size: 1.4vw;
+}
+#favorite table td:nth-child(odd){
+	font-weight:normal;
+}
+#favorite ul{
+	list-style-type: none; 
+}
+#favorite li{
+	text-align: center;
+	font-family: Georgia, "Times New Roman", 
+        Times, serif;
+    font-weight: bold;
+    color: #918F96;
+    font-size: 1.4vw;
+}
+#favorite img{
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	margin: 5% 0%;
+}
+/*backtotop*/
+#top{
+	text-align: right;
+}
+#top a{
+	color:rgba(49, 112, 143, 1);
+	font-style:italic;
+	font-family: Georgia, "Times New Roman", 
+        Times, serif;
+    font-size: 1.4vw;
+}
+/*foot*/
+#foot{
+	text-align: center;
+	color: #E5F6FD;
+	padding: 10px;
+	font-size: 1.3vw;
+}
+#foot a{
+	color:#E5F6FD;
+}
