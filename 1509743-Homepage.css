@@ -55,7 +55,7 @@ body{
 #nevigation a:hover{
 	color:#D3867C;
 }
-#basiclinks{
+.basiclinks{
 	padding: 20% 0%;
 }
 /*htmlbody body*/
